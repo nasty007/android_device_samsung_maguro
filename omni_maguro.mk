@@ -20,17 +20,17 @@ PRODUCT_RELEASE_NAME := GN-GSM
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from our omni product configuration
-$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/du/config/common.mk)
 
 # Pull in GSM-specific stuff such as APNs
-$(call inherit-product, vendor/omni/config/gsm.mk)
+$(call inherit-product, vendor/du/config/gsm.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/samsung/maguro/device.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := maguro
-PRODUCT_NAME := omni_maguro
+PRODUCT_NAME := du_maguro
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Galaxy Nexus
 PRODUCT_MANUFACTURER := samsung
