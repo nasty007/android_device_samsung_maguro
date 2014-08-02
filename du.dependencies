@@ -1,0 +1,21 @@
+[
+  {
+    "remote":      "du",
+    "repository":  "android_device_samsung_tuna",
+    "target_path": "device/samsung/tuna",
+    "revision":    "du44"
+  },
+  {
+    "remote":      "du",
+    "repository":  "android_kernel_samsung_tuna",
+    "target_path": "kernel/samsung/tuna",
+    "revision":    "du44"
+  },
+  {
+    "remote":       "du",
+    "repository":   "proprietary_vendor_samsung",
+    "target_path":  "vendor/samsung",
+    "revision":     "du44"
+  }
+  
+]
