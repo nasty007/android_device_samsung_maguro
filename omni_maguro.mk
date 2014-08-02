@@ -19,7 +19,7 @@ PRODUCT_RELEASE_NAME := GN-GSM
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from our omni product configuration
+# Inherit from our DU product configuration
 $(call inherit-product, vendor/du/config/common.mk)
 
 # Pull in GSM-specific stuff such as APNs
